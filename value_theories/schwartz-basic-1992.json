@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "theory": "Schwartz Basic Human Values (1992)",
+    "version": "1.0",
+    "author": "Eduardo de la Cruz",
+    "last_updated": "2025-05-07",
+    "doi": "10.1037/a0029393",
+    "main_reference": "Schwartz, S. H. (1992). Universals in the Content and Structure of Values: Theoretical Advances and Empirical Tests in 20 Countries. Advances in Experimental Social Psychology, 25, 1-65."
+  },
+  "values": [
+    {
+      "id": "SDI",
+      "name": "Self-Direction",
+      "description": "Independent thought and action-choosing, creating, and exploring.",
+      "dimension": "Openness to change",
+      "tags": [
+        "independence", "creativity", "freedom", "curiosity", "autonomy", "exploration", "innovation", "originality"
+      ],
+      "examples": [
+        "Thinking independently", "Pursuing creative hobbies", "Making your own decisions", "Exploring new ideas", "Learning new skills", "Expressing your opinions"
+      ]
+    },
+    {
+      "id": "STI",
+      "name": "Stimulation",
+      "description": "Excitement, novelty, and challenge in life.",
+      "dimension": "Openness to change",
+      "tags": [
+        "adventure", "novelty", "excitement", "challenge", "risk-taking", "variety", "dynamic"
+      ],
+      "examples": [
+        "Seeking adventure", "Trying new activities", "Traveling to unknown places", "Taking risks", "Enjoying fast-paced environments"
+      ]
+    },
+    {
+      "id": "HED",
+      "name": "Hedonism",
+      "description": "Pleasure or sensuous gratification for oneself.",
+      "dimension": "Openness to change / Self-enhancement",
+      "tags": [
+        "pleasure", "enjoyment", "gratification", "fun", "leisure", "sensuality", "indulgence"
+      ],
+      "examples": [
+        "Enjoying good food", "Partying", "Relaxing at a spa", "Engaging in leisure activities", "Seeking entertainment"
+      ]
+    },
+    {
+      "id": "ACH",
+      "name": "Achievement",
+      "description": "Personal success through demonstrating competence according to social standards.",
+      "dimension": "Self-enhancement",
+      "tags": [
+        "success", "competence", "ambition", "goal-oriented", "excellence", "recognition", "winning"
+      ],
+      "examples": [
+        "Winning awards", "Getting a promotion", "Achieving high grades", "Being recognized for accomplishments", "Meeting challenging goals"
+      ]
+    },
+    {
+      "id": "POD",
+      "name": "Power",
+      "description": "Social status and prestige, control or dominance over people and resources.",
+      "dimension": "Self-enhancement",
+      "tags": [
+        "status", "control", "influence", "authority", "dominance", "leadership", "prestige", "wealth", "social position", "recognition"
+      ],
+      "examples": [
+        "Leadership", "Authority", "Wealth", "Influence over others", "High social standing", "Being in charge", "Owning assets", "Commanding respect", "Directing projects", "Controlling resources"
+      ]
+    },
+    {
+      "id": "SEC",
+      "name": "Security",
+      "description": "Safety, harmony, and stability of society, of relationships, and of self.",
+      "dimension": "Conservation",
+      "tags": [
+        "safety", "stability", "harmony", "order", "protection", "security", "peace", "reliability"
+      ],
+      "examples": [
+        "Living in a safe neighborhood", "Having stable employment", "Following rules for safety", "Maintaining harmonious relationships", "Seeking predictability"
+      ]
+    },
+    {
+      "id": "CON",
+      "name": "Conformity",
+      "description": "Restraint of actions, inclinations, and impulses likely to upset or harm others and violate social expectations or norms.",
+      "dimension": "Conservation",
+      "tags": [
+        "obedience", "self-discipline", "politeness", "respect", "compliance", "restraint", "social norms"
+      ],
+      "examples": [
+        "Following rules", "Being polite", "Respecting authority", "Avoiding conflict", "Acting appropriately in public"
+      ]
+    },
+    {
+      "id": "TRD",
+      "name": "Tradition",
+      "description": "Respect, commitment, and acceptance of the customs and ideas that one's culture or religion provides.",
+      "dimension": "Conservation",
+      "tags": [
+        "customs", "heritage", "rituals", "traditions", "religion", "cultural identity", "respect for elders"
+      ],
+      "examples": [
+        "Celebrating cultural festivals", "Observing religious rituals", "Respecting elders", "Maintaining family traditions", "Upholding cultural practices"
+      ]
+    },
+    {
+      "id": "BEN",
+      "name": "Benevolence",
+      "description": "Preserving and enhancing the welfare of those with whom one is in frequent personal contact (the 'in-group').",
+      "dimension": "Self-transcendence",
+      "tags": [
+        "helpfulness", "loyalty", "responsibility", "care", "generosity", "trustworthiness", "support", "friendship"
+      ],
+      "examples": [
+        "Helping family members", "Supporting friends", "Being a loyal partner", "Caring for children", "Assisting colleagues"
+      ]
+    },
+    {
+      "id": "UNI",
+      "name": "Universalism",
+      "description": "Understanding, appreciation, tolerance, and protection for the welfare of all people and for nature.",
+      "dimension": "Self-transcendence",
+      "tags": [
+        "equality", "justice", "nature", "tolerance", "environment", "human rights", "social responsibility", "global concern", "diversity", "sustainability"
+      ],
+      "examples": [
+        "Equality", "Social justice", "Environmental protection", "Supporting human rights", "Fighting discrimination", "Promoting diversity", "Recycling", "Charity work", "Animal welfare", "Climate action"
+      ]
+    }
+  ]
+}

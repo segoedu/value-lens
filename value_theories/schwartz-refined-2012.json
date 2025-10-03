@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "theory": "Schwartz Refined Basic Human Values (2012)",
+    "version": "1.0",
+    "author": "Eduardo de la Cruz",
+    "last_updated": "2025-05-07",
+    "doi": "10.1037/a0029393",
+    "main_reference": "Schwartz, S. H. (2012). Refining the theory of basic individual values. Journal of Personality and Social Psychology, 103(4), 663–688."
+  },
+  "values": [
+    {
+      "id": "SDT",
+      "name": "Self-direction: thought",
+      "description": "Freedom to cultivate one's own ideas and abilities.",
+      "dimension": "Openness to change",
+      "tags": [
+        "autonomy", "creativity", "curiosity", "independent thinking", "intellectual freedom", "imagination"
+      ],
+      "examples": [
+        "Pursuing creative ideas", "Thinking for oneself", "Exploring new concepts", "Valuing curiosity", "Enjoying learning", "Challenging conventional wisdom"
+      ]
+    },
+    {
+      "id": "SDA",
+      "name": "Self-direction: action",
+      "description": "Freedom to determine one's own actions.",
+      "dimension": "Openness to change",
+      "tags": [
+        "autonomy", "independence", "choosing own goals", "self-reliance", "initiative"
+      ],
+      "examples": [
+        "Making independent decisions", "Setting personal goals", "Acting according to one's own plans", "Preferring self-organization", "Taking initiative"
+      ]
+    },
+    {
+      "id": "STI",
+      "name": "Stimulation",
+      "description": "Excitement, novelty, and challenge in life.",
+      "dimension": "Openness to change",
+      "tags": [
+        "adventure", "novelty", "risk-taking", "excitement", "challenge", "variety"
+      ],
+      "examples": [
+        "Seeking new experiences", "Enjoying surprises", "Trying new things", "Taking risks", "Traveling to unknown places"
+      ]
+    },
+    {
+      "id": "HED",
+      "name": "Hedonism",
+      "description": "Pleasure and sensuous gratification for oneself.",
+      "dimension": "Openness to change / Self-enhancement",
+      "tags": [
+        "pleasure", "enjoyment", "gratification", "comfort", "fun", "sensuality"
+      ],
+      "examples": [
+        "Enjoying good food", "Seeking pleasure", "Relaxing", "Having fun", "Indulging in comforts"
+      ]
+    },
+    {
+      "id": "ACH",
+      "name": "Achievement",
+      "description": "Success according to social standards.",
+      "dimension": "Self-enhancement",
+      "tags": [
+        "success", "ambition", "competence", "social recognition", "goal attainment", "performance"
+      ],
+      "examples": [
+        "Winning awards", "Excelling at work", "Being admired for achievements", "Striving for excellence", "Meeting high standards"
+      ]
+    },
+    {
+      "id": "POD",
+      "name": "Power: dominance",
+      "description": "Power through exercising control over people.",
+      "dimension": "Self-enhancement",
+      "tags": [
+        "authority", "dominance", "leadership", "influence", "control over others"
+      ],
+      "examples": [
+        "Leading a team", "Making decisions for others", "Directing projects", "Having authority in groups"
+      ]
+    },
+    {
+      "id": "POR",
+      "name": "Power: resources",
+      "description": "Power through control of material and social resources.",
+      "dimension": "Self-enhancement",
+      "tags": [
+        "wealth", "material possessions", "social status", "resources", "financial power"
+      ],
+      "examples": [
+        "Accumulating wealth", "Owning valuable assets", "Having financial security", "Controlling resources"
+      ]
+    },
+    {
+      "id": "FAC",
+      "name": "Face",
+      "description": "Security and power through maintaining one's public image and avoiding humiliation.",
+      "dimension": "Self-enhancement / Conservation",
+      "tags": [
+        "public image", "prestige", "reputation", "avoiding shame", "social respect"
+      ],
+      "examples": [
+        "Protecting one's reputation", "Avoiding embarrassment", "Maintaining dignity", "Seeking respect from others"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Security: personal",
+      "description": "Safety in one's immediate environment.",
+      "dimension": "Conservation",
+      "tags": [
+        "personal safety", "health", "well-being", "secure surroundings", "protection"
+      ],
+      "examples": [
+        "Living in a safe neighborhood", "Having health insurance", "Avoiding dangerous situations", "Ensuring family safety"
+      ]
+    },
+    {
+      "id": "SES",
+      "name": "Security: societal",
+      "description": "Safety and stability in the wider society.",
+      "dimension": "Conservation",
+      "tags": [
+        "social order", "national security", "stability", "law and order", "public safety"
+      ],
+      "examples": [
+        "Supporting strong institutions", "Advocating for law enforcement", "Promoting social stability", "Valuing national security"
+      ]
+    },
+    {
+      "id": "TRD",
+      "name": "Tradition",
+      "description": "Maintaining and preserving cultural, family, or religious traditions.",
+      "dimension": "Conservation",
+      "tags": [
+        "customs", "heritage", "religion", "family traditions", "respect for elders", "rituals"
+      ],
+      "examples": [
+        "Celebrating cultural festivals", "Observing religious practices", "Respecting family customs", "Upholding traditions"
+      ]
+    },
+    {
+      "id": "COR",
+      "name": "Conformity: rules",
+      "description": "Compliance with rules, laws, and formal obligations.",
+      "dimension": "Conservation",
+      "tags": [
+        "obedience", "law-abiding", "self-discipline", "following rules", "meeting obligations"
+      ],
+      "examples": [
+        "Paying taxes", "Obeying laws", "Following workplace policies", "Meeting deadlines"
+      ]
+    },
+    {
+      "id": "COI",
+      "name": "Conformity: interpersonal",
+      "description": "Avoidance of upsetting or harming other people.",
+      "dimension": "Conservation / Self-transcendence",
+      "tags": [
+        "politeness", "consideration", "respect", "avoiding conflict", "not disturbing others"
+      ],
+      "examples": [
+        "Being polite", "Respecting others' feelings", "Avoiding arguments", "Not offending others"
+      ]
+    },
+    {
+      "id": "HUM",
+      "name": "Humility",
+      "description": "Recognizing one's insignificance in the larger scheme of things.",
+      "dimension": "Conservation / Self-transcendence",
+      "tags": [
+        "modesty", "self-effacement", "acceptance", "not seeking attention", "being humble"
+      ],
+      "examples": [
+        "Not boasting", "Being satisfied with what one has", "Accepting life's circumstances", "Staying out of the spotlight"
+      ]
+    },
+    {
+      "id": "BED",
+      "name": "Benevolence: dependability",
+      "description": "Being a reliable and trustworthy member of the ingroup.",
+      "dimension": "Self-transcendence",
+      "tags": [
+        "reliability", "trustworthiness", "dependability", "responsibility", "loyalty"
+      ],
+      "examples": [
+        "Being there for friends", "Keeping promises", "Supporting family", "Being dependable"
+      ]
+    },
+    {
+      "id": "BEC",
+      "name": "Benevolence: caring",
+      "description": "Devotion to the welfare of ingroup members.",
+      "dimension": "Self-transcendence",
+      "tags": [
+        "caring", "helpfulness", "compassion", "empathy", "support", "forgiveness"
+      ],
+      "examples": [
+        "Helping close friends", "Caring for family", "Showing empathy", "Providing emotional support"
+      ]
+    },
+    {
+      "id": "UNC",
+      "name": "Universalism: concern",
+      "description": "Commitment to equality, justice, and protection for all people.",
+      "dimension": "Self-transcendence",
+      "tags": [
+        "equality", "social justice", "human rights", "fairness", "protecting the weak"
+      ],
+      "examples": [
+        "Advocating for equal rights", "Fighting discrimination", "Promoting social justice", "Supporting humanitarian causes"
+      ]
+    },
+    {
+      "id": "UNN",
+      "name": "Universalism: nature",
+      "description": "Preservation of the natural environment.",
+      "dimension": "Self-transcendence",
+      "tags": [
+        "environment", "nature", "sustainability", "ecology", "animal welfare"
+      ],
+      "examples": [
+        "Recycling", "Protecting wildlife", "Supporting environmental organizations", "Reducing pollution"
+      ]
+    },
+    {
+      "id": "UNT",
+      "name": "Universalism: tolerance",
+      "description": "Acceptance and understanding of those who are different from oneself.",
+      "dimension": "Self-transcendence",
+      "tags": [
+        "tolerance", "open-mindedness", "diversity", "acceptance", "respect for differences"
+      ],
+      "examples": [
+        "Listening to different opinions", "Accepting diverse lifestyles", "Promoting inclusion", "Valuing multiculturalism"
+      ]
+    }
+  ]
+}

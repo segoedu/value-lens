@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "theory": "Moral Foundations Theory (MFT)",
+    "version": "1.0",
+    "author": "Eduardo de la Cruz",
+    "last_updated": "2025-10-03",
+    "doi": "10.1007/s11211-007-0034-z",
+    "main_reference": "Haidt, J., & Graham, J. (2007). When morality opposes justice: Conservatives have moral intuitions that liberals may not recognize. Social Justice Research, 20(1), 98–116."
+  },
+  "values": [
+    {
+      "id": "CAR",
+      "name": "Care",
+      "description": "Sensitivity to suffering and the desire to nurture, protect, and prevent harm to others.",
+      "dimension": "Individualizing",
+      "tags": [
+        "compassion",
+        "empathy",
+        "nurturance",
+        "protection",
+        "kindness",
+        "altruism",
+        "helping",
+        "caregiving"
+      ],
+      "examples": [
+        "Protecting vulnerable people",
+        "Comforting someone in pain",
+        "Advocating for child welfare",
+        "Donating to humanitarian causes",
+        "Supporting mental health initiatives",
+        "Volunteering to aid disaster victims"
+      ]
+    },
+    {
+      "id": "HRM",
+      "name": "Harm",
+      "description": "Aversion to causing pain, suffering, or injury; concern about cruelty and violence.",
+      "dimension": "Individualizing",
+      "tags": [
+        "nonmaleficence",
+        "anti-cruelty",
+        "injury-avoidance",
+        "violence-aversion",
+        "compassion violation",
+        "exploitation concern"
+      ],
+      "examples": [
+        "Condemning torture and cruelty",
+        "Opposing abusive practices",
+        "Reporting bullying or violence",
+        "Avoiding actions that could injure others",
+        "Calling out neglect of the vulnerable",
+        "Objecting to excessive punishment"
+      ]
+    },
+    {
+      "id": "FAR",
+      "name": "Fairness",
+      "description": "Concerns about justice, rights, equality, proportionality, and reciprocity in social exchanges.",
+      "dimension": "Individualizing",
+      "tags": [
+        "justice",
+        "equality",
+        "proportionality",
+        "reciprocity",
+        "rights",
+        "merit",
+        "impartiality",
+        "rule-consistency"
+      ],
+      "examples": [
+        "Advocating equal treatment under law",
+        "Rewarding people proportionally to effort",
+        "Supporting fair competition rules",
+        "Opposing favoritism in hiring",
+        "Ensuring transparent procedures",
+        "Backing consumer protections"
+      ]
+    },
+    {
+      "id": "CHT",
+      "name": "Cheating",
+      "description": "Aversion to free-riding, fraud, and exploitation that undermine fair cooperation.",
+      "dimension": "Individualizing",
+      "tags": [
+        "anti-fraud",
+        "anti-free-riding",
+        "dishonesty concern",
+        "exploitation",
+        "rule-breaking",
+        "corruption"
+      ],
+      "examples": [
+        "Punishing plagiarism or fraud",
+        "Rejecting insider trading",
+        "Reporting expense cheating",
+        "Opposing tax evasion",
+        "Calling out manipulation in games",
+        "Sanctioning doping in sports"
+      ]
+    },
+    {
+      "id": "LOY",
+      "name": "Loyalty",
+      "description": "Valuing allegiance, solidarity, and commitment to one's group, community, or nation.",
+      "dimension": "Binding",
+      "tags": [
+        "group solidarity",
+        "patriotism",
+        "team spirit",
+        "self-sacrifice",
+        "standing by allies",
+        "ingroup commitment"
+      ],
+      "examples": [
+        "Supporting a team through setbacks",
+        "Prioritizing community needs",
+        "Honoring national service",
+        "Backing colleagues in crises",
+        "Celebrating shared identities",
+        "Coordinating for group goals"
+      ]
+    },
+    {
+      "id": "BET",
+      "name": "Betrayal",
+      "description": "Aversion to disloyalty, treachery, or desertion of one’s group or partners.",
+      "dimension": "Binding",
+      "tags": [
+        "treachery",
+        "desertion",
+        "backstabbing",
+        "defection",
+        "free-riding",
+        "unfaithfulness"
+      ],
+      "examples": [
+        "Condemning whistleblowing that endangers innocents",
+        "Sanctioning leaks of sensitive team information",
+        "Objecting to abandoning partners mid-project",
+        "Rejecting opportunistic defection",
+        "Sanctioning collusion with outgroups",
+        "Responding to broken pacts"
+      ]
+    },
+    {
+      "id": "AUT",
+      "name": "Authority",
+      "description": "Valuing respect for legitimate authority, hierarchy, and role-based obligations.",
+      "dimension": "Binding",
+      "tags": [
+        "legitimacy",
+        "respect",
+        "duty",
+        "tradition",
+        "role-obligation",
+        "order",
+        "social coordination"
+      ],
+      "examples": [
+        "Following lawful directives",
+        "Honoring institutional roles",
+        "Upholding chain of command",
+        "Teaching respect for elders",
+        "Maintaining classroom order",
+        "Observing ceremonial protocol"
+      ]
+    },
+    {
+      "id": "SUB",
+      "name": "Subversion",
+      "description": "Aversion to actions that illegitimately undermine authority, hierarchy, or role obligations.",
+      "dimension": "Binding",
+      "tags": [
+        "illegitimacy",
+        "insubordination",
+        "sabotage",
+        "disobedience",
+        "disruption",
+        "anomie"
+      ],
+      "examples": [
+        "Condemning violent insurrection",
+        "Opposing undermining lawful orders",
+        "Sanctioning deliberate sabotage",
+        "Objecting to disorderly conduct",
+        "Rejecting contempt for institutions",
+        "Responding to coercive mob actions"
+      ]
+    },
+    {
+      "id": "SAN",
+      "name": "Sanctity",
+      "description": "Valuing purity, sacredness, and elevation; avoiding degradation of the body or spirit.",
+      "dimension": "Binding",
+      "tags": [
+        "purity",
+        "sacredness",
+        "chastity",
+        "elevation",
+        "temperance",
+        "awe",
+        "disgust sensitivity"
+      ],
+      "examples": [
+        "Revering sacred sites or rituals",
+        "Practicing dietary or bodily purity rules",
+        "Valuing temperance and restraint",
+        "Seeking uplifting experiences",
+        "Avoiding degrading media",
+        "Honoring bodily integrity"
+      ]
+    },
+    {
+      "id": "DEG",
+      "name": "Degradation",
+      "description": "Aversion to impurity, contamination, and defilement that profanes what is considered sacred.",
+      "dimension": "Binding",
+      "tags": [
+        "contamination",
+        "defilement",
+        "debasement",
+        "obscenity",
+        "disgust",
+        "sacrilege"
+      ],
+      "examples": [
+        "Condemning desecration of sacred symbols",
+        "Avoiding contaminated spaces",
+        "Objecting to obscene or degrading acts",
+        "Opposing exploitation of the body",
+        "Rejecting mockery of sacred traditions",
+        "Reacting to moral disgust cues"
+      ]
+    },
+    {
+      "id": "LIB",
+      "name": "Liberty",
+      "description": "Valuing personal and collective freedom from domination; sensitivity to autonomy and choice.",
+      "dimension": "Individualizing",
+      "tags": [
+        "freedom",
+        "autonomy",
+        "anti-domination",
+        "civil liberties",
+        "self-determination",
+        "consent"
+      ],
+      "examples": [
+        "Defending free speech",
+        "Opposing coercive control",
+        "Supporting bodily autonomy",
+        "Advocating freedom of movement",
+        "Resisting authoritarian overreach",
+        "Protecting freedom of association"
+      ]
+    },
+    {
+      "id": "OPP",
+      "name": "Oppression",
+      "description": "Aversion to domination, coercion, and exploitation that restrict autonomy or equal standing.",
+      "dimension": "Individualizing",
+      "tags": [
+        "anti-coercion",
+        "anti-tyranny",
+        "power-abuse",
+        "subjugation",
+        "overreach",
+        "unjust control"
+      ],
+      "examples": [
+        "Protesting authoritarian abuses",
+        "Calling out police brutality",
+        "Opposing workplace coercion",
+        "Challenging censorship",
+        "Resisting unjust surveillance",
+        "Supporting anti-slavery initiatives"
+      ]
+    }
+  ]
+}

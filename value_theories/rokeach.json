@@ -1,0 +1,301 @@
+{
+  "metadata": {
+    "theory": "Rokeach Value Survey (RVS)",
+    "version": "1.0",
+    "author": "Eduardo de la Cruz",
+    "last_updated": "2025-10-03",
+    "main_reference": "Rokeach, M. (1973). The Nature of Human Values. Free Press.",
+    "notes": "RVS distinguishes terminal (end-states of existence) and instrumental (modes of conduct) values."
+  },
+  "values": [
+      {
+        "id": "T-HAP",
+        "name": "Happiness",
+        "description": "Contentedness and general satisfaction with life.",
+        "dimension": "Terminal",
+        "tags": ["well-being", "contentment", "life satisfaction", "joy"],
+        "examples": ["Feeling satisfied with life choices", "Maintaining a positive outlook"]
+      },
+      {
+        "id": "T-PLS",
+        "name": "Pleasure",
+        "description": "An enjoyable, comfortable life with sensuous gratification.",
+        "dimension": "Terminal",
+        "tags": ["enjoyment", "comfort", "leisure", "fun"],
+        "examples": ["Enjoying leisure activities", "Seeking enjoyable experiences"]
+      },
+      {
+        "id": "T-SLF",
+        "name": "Self-respect",
+        "description": "Self-esteem and a sense of personal worth.",
+        "dimension": "Terminal",
+        "tags": ["dignity", "self-esteem", "pride", "self-worth"],
+        "examples": ["Acting in line with one’s principles", "Protecting personal dignity"]
+      },
+      {
+        "id": "T-FRE",
+        "name": "Freedom",
+        "description": "Independence and self-determination.",
+        "dimension": "Terminal",
+        "tags": ["autonomy", "liberty", "choice", "self-determination"],
+        "examples": ["Making one’s own decisions", "Resisting undue control"]
+      },
+      {
+        "id": "T-WIS",
+        "name": "Wisdom",
+        "description": "A mature understanding of life.",
+        "dimension": "Terminal",
+        "tags": ["insight", "judgment", "life experience", "prudence"],
+        "examples": ["Reflecting before acting", "Learning from long-term patterns"]
+      },
+      {
+        "id": "T-IOP",
+        "name": "Inner harmony",
+        "description": "Freedom from inner conflict and peace of mind.",
+        "dimension": "Terminal",
+        "tags": ["peace", "serenity", "emotional balance"],
+        "examples": ["Practicing mindfulness", "Avoiding self-contradiction"]
+      },
+      {
+        "id": "T-SAF",
+        "name": "Family security",
+        "description": "Safety and care for loved ones.",
+        "dimension": "Terminal",
+        "tags": ["family", "protection", "stability", "caregiving"],
+        "examples": ["Providing for family needs", "Ensuring a safe home"]
+      },
+      {
+        "id": "T-SAN",
+        "name": "National security",
+        "description": "Protection from attack and social chaos.",
+        "dimension": "Terminal",
+        "tags": ["safety", "defense", "stability", "order"],
+        "examples": ["Supporting measures for public safety", "Prioritizing social stability"]
+      },
+      {
+        "id": "T-PEA",
+        "name": "A world at peace",
+        "description": "Freedom from war and conflict.",
+        "dimension": "Terminal",
+        "tags": ["peace", "non-violence", "diplomacy"],
+        "examples": ["Backing peacebuilding", "Opposing violent escalation"]
+      },
+      {
+        "id": "T-BEA",
+        "name": "A world of beauty",
+        "description": "Beauty in nature and the arts.",
+        "dimension": "Terminal",
+        "tags": ["aesthetics", "culture", "nature", "art"],
+        "examples": ["Appreciating art and nature", "Protecting beautiful places"]
+      },
+      {
+        "id": "T-REC",
+        "name": "Social recognition",
+        "description": "Respect, approval, and admiration from others.",
+        "dimension": "Terminal",
+        "tags": ["status", "respect", "reputation"],
+        "examples": ["Seeking public acknowledgment", "Caring about social image"]
+      },
+      {
+        "id": "T-AMA",
+        "name": "True friendship",
+        "description": "Close companionship and trust.",
+        "dimension": "Terminal",
+        "tags": ["friends", "trust", "loyalty", "belonging"],
+        "examples": ["Investing in close friends", "Being present in hard times"]
+      },
+      {
+        "id": "T-LUV",
+        "name": "Mature love",
+        "description": "Deep affection and sexual fulfillment.",
+        "dimension": "Terminal",
+        "tags": ["romance", "intimacy", "commitment"],
+        "examples": ["Maintaining a committed relationship", "Prioritizing partner’s well-being"]
+      },
+      {
+        "id": "T-COM",
+        "name": "Comfortable life",
+        "description": "Prosperous, materially secure life.",
+        "dimension": "Terminal",
+        "tags": ["prosperity", "comfort", "material security"],
+        "examples": ["Earning a stable income", "Improving living standards"]
+      },
+      {
+        "id": "T-EXC",
+        "name": "Exciting life",
+        "description": "Stimulating, active, and varied experiences.",
+        "dimension": "Terminal",
+        "tags": ["adventure", "novelty", "variety"],
+        "examples": ["Traveling frequently", "Trying new, challenging activities"]
+      },
+      {
+        "id": "T-EQL",
+        "name": "Equality",
+        "description": "Equal opportunity and justice for all.",
+        "dimension": "Terminal",
+        "tags": ["justice", "fairness", "human rights"],
+        "examples": ["Supporting anti-discrimination", "Promoting equal access"]
+      },
+      {
+        "id": "T-RED",
+        "name": "Salvation",
+        "description": "Saved; eternal life (religious or spiritual fulfillment).",
+        "dimension": "Terminal",
+        "tags": ["spirituality", "religion", "afterlife", "redemption"],
+        "examples": ["Practicing faith", "Seeking spiritual deliverance"]
+      },
+      {
+        "id": "T-ACP",
+        "name": "A sense of accomplishment",
+        "description": "Achievement of life goals.",
+        "dimension": "Terminal",
+        "tags": ["achievement", "goals", "success"],
+        "examples": ["Completing important projects", "Reaching long-term goals"]
+      },
+      {
+        "id": "I-HON",
+        "name": "Honest",
+        "description": "Sincere, truthful, and straightforward.",
+        "dimension": "Instrumental",
+        "tags": ["truthfulness", "integrity", "sincerity"],
+        "examples": ["Telling the truth", "Admitting mistakes"]
+      },
+      {
+        "id": "I-RES",
+        "name": "Responsible",
+        "description": "Dependable and reliable in fulfilling duties.",
+        "dimension": "Instrumental",
+        "tags": ["duty", "reliability", "accountability"],
+        "examples": ["Meeting commitments", "Owning the consequences"]
+      },
+      {
+        "id": "I-IND",
+        "name": "Independent",
+        "description": "Self-reliant and self-sufficient.",
+        "dimension": "Instrumental",
+        "tags": ["autonomy", "self-reliance", "initiative"],
+        "examples": ["Working without constant supervision", "Making own choices"]
+      },
+      {
+        "id": "I-BRA",
+        "name": "Courageous",
+        "description": "Brave in facing risks and challenges.",
+        "dimension": "Instrumental",
+        "tags": ["bravery", "risk-taking", "fortitude"],
+        "examples": ["Speaking up under pressure", "Taking principled stands"]
+      },
+      {
+        "id": "I-SEL",
+        "name": "Self-controlled",
+        "description": "Restrained; able to regulate impulses.",
+        "dimension": "Instrumental",
+        "tags": ["discipline", "restraint", "self-regulation"],
+        "examples": ["Delaying gratification", "Keeping composure"]
+      },
+      {
+        "id": "I-TOL",
+        "name": "Broadminded",
+        "description": "Open-minded and tolerant.",
+        "dimension": "Instrumental",
+        "tags": ["tolerance", "open-mindedness", "respect"],
+        "examples": ["Considering opposing views", "Accepting differences"]
+      },
+      {
+        "id": "I-AMB",
+        "name": "Ambitious",
+        "description": "Hard-working; aspiring to success.",
+        "dimension": "Instrumental",
+        "tags": ["achievement", "drive", "goal-oriented"],
+        "examples": ["Setting stretch goals", "Persisting for advancement"]
+      },
+      {
+        "id": "I-OBE",
+        "name": "Obedient",
+        "description": "Dutiful; respects rules and authority.",
+        "dimension": "Instrumental",
+        "tags": ["compliance", "respect", "conformity"],
+        "examples": ["Following protocols", "Respecting legitimate authority"]
+      },
+      {
+        "id": "I-POL",
+        "name": "Polite",
+        "description": "Courteous and considerate.",
+        "dimension": "Instrumental",
+        "tags": ["civility", "manners", "respect"],
+        "examples": ["Using courteous language", "Showing consideration in public"]
+      },
+      {
+        "id": "I-CLE",
+        "name": "Clean",
+        "description": "Neat and orderly.",
+        "dimension": "Instrumental",
+        "tags": ["tidiness", "order", "hygiene"],
+        "examples": ["Keeping spaces tidy", "Maintaining personal hygiene"]
+      },
+      {
+        "id": "I-IMV",
+        "name": "Imaginative",
+        "description": "Creative and original.",
+        "dimension": "Instrumental",
+        "tags": ["creativity", "originality", "innovation"],
+        "examples": ["Proposing novel ideas", "Using creative approaches"]
+      },
+      {
+        "id": "I-INT",
+        "name": "Intellectual",
+        "description": "Reflective and thoughtful.",
+        "dimension": "Instrumental",
+        "tags": ["thinking", "reflection", "analysis"],
+        "examples": ["Engaging in deep study", "Weighing evidence carefully"]
+      },
+      {
+        "id": "I-CAP",
+        "name": "Capable",
+        "description": "Competent and effective.",
+        "dimension": "Instrumental",
+        "tags": ["competence", "efficacy", "skill"],
+        "examples": ["Delivering quality work", "Solving complex tasks"]
+      },
+      {
+        "id": "I-CHE",
+        "name": "Cheerful",
+        "description": "Optimistic and lighthearted.",
+        "dimension": "Instrumental",
+        "tags": ["positivity", "optimism", "good-natured"],
+        "examples": ["Boosting team morale", "Keeping spirits high"]
+      },
+      {
+        "id": "I-FOR",
+        "name": "Forgiving",
+        "description": "Willing to pardon others.",
+        "dimension": "Instrumental",
+        "tags": ["mercy", "clemency", "grace"],
+        "examples": ["Letting go of grudges", "Offering second chances"]
+      },
+      {
+        "id": "I-HEL",
+        "name": "Helpful",
+        "description": "Working for others’ welfare.",
+        "dimension": "Instrumental",
+        "tags": ["altruism", "support", "service"],
+        "examples": ["Volunteering time", "Assisting colleagues"]
+      },
+      {
+        "id": "I-LOY",
+        "name": "Loyal",
+        "description": "Faithful and steadfast to people or causes.",
+        "dimension": "Instrumental",
+        "tags": ["commitment", "fidelity", "trustworthiness"],
+        "examples": ["Standing by a friend", "Upholding group commitments"]
+      },
+      {
+        "id": "I-DIL",
+        "name": "Hardworking",
+        "description": "Diligent and industrious.",
+        "dimension": "Instrumental",
+        "tags": ["diligence", "perseverance", "effort"],
+        "examples": ["Putting sustained effort", "Following through on tasks"]
+      }
+    ]
+}
+    

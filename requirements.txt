@@ -1,0 +1,12 @@
+langchain
+langchain_groq
+langchain-openai
+langchain_google_genai
+streamlit
+streamlit-option-menu
+streamlit_text_annotation
+st-annotated-text
+pandas
+urllib3
+supabase
+python-dotenv
