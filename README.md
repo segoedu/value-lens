@@ -1,6 +1,6 @@
 <img width="493" height="81" alt="25693dde6b8099a858f03866e6af39473ddb6c3f90bb1a82e982837d" src="https://github.com/user-attachments/assets/53baf9d1-c76a-4cd9-b40a-e225ad786f82" />
 
-# Value Lens: Using Large Language Models to Understand Human Values
+# Using Large Language Models to Understand Human Values
 
 Value Lens is a Streamlit app that analyzes any text through human value theories, detecting which values appear, how strongly they are expressed, and why—complete with evidence and explanations. It supports classic frameworks (Schwartz, Rokeach, Maslow) and custom taxonomies, using a two‑agent setup where one model detects and another critiques for greater reliability.
 
