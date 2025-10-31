@@ -63,3 +63,8 @@ Value Lens is a Streamlit app that analyzes any text through human value theorie
 
 ## License 📄
 - MIT License.
+
+🌐 Eduardo de la Cruz <a href="https://www.linkedin.com/in/eduardodelacruzf/" target="_blank">Linkedin profile</a>
+
+<img width="3015" height="2689" alt="poster" src="https://github.com/user-attachments/assets/ca702052-8e8c-432c-8111-3f1277074fdf" />
+
