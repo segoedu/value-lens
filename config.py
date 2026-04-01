@@ -4,24 +4,23 @@ Configuration file for LLM Value Analysis app
 
 # Available LLM models from Groq
 AVAILABLE_MODELS_GROQ = [
-    "openai/gpt-oss-20b",
     "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
     "llama-3.3-70b-versatile",
     "meta-llama/llama-4-scout-17b-16e-instruct",
     "meta-llama/llama-4-maverick-17b-128e-instruct",
-    "qwen/qwen3-32b"
+    "qwen/qwen3-32b",
+    "moonshotai/kimi-k2-instruct-0905",
 ]
 
 # Available LLM models from Openrouter
 AVAILABLE_MODELS_OPENROUTER = [
-    "deepseek/deepseek-chat-v3.1:free",
-    "google/gemini-2.5-flash",
-    "google/gemini-2.5-pro",
-    "google/gemma-3-27b-it",
-    "anthropic/claude-sonnet-4.5",
-    "openai/gpt-5-nano",
-    "openai/gpt-5-mini",
-    "openai/gpt-5"
+    "openrouter/free",
+    "nvidia/nemotron-3-super-120b-a12b:free",
+    "minimax/minimax-m2.5:free",
+    "anthropic/claude-sonnet-4.6",
+    "openai/gpt-oss-120b",
+    "openai/gpt-5.4",
 ]
 
 # Example texts for "Generate Random Text" feature
