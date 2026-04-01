@@ -1,3 +1,4 @@
+    
 import streamlit as st
 import os
 import json
@@ -41,7 +42,7 @@ load_dotenv()
 
 # Function to load value theory files
 @st.cache_data
-def load_value_theories(path="value_theories"):
+def load_value_theories(path="src/value_theories"):
     value_theories = {}
     for file_path in glob.glob(f"{path}/*.json"):
         try:
@@ -54,7 +55,7 @@ def load_value_theories(path="value_theories"):
 
 # Function to load datasets from CSV files
 @st.cache_data
-def load_datasets(path="datasets"):
+def load_datasets(path="src/datasets"):
     datasets = {}
     for file_path in glob.glob(f"{path}/*.csv"):
         try:
@@ -510,7 +511,7 @@ def display_analysis_results():
 # Use streamlit-option-menu for navigation
 with st.sidebar:
     #st.title("Value Lens ⚖️")
-    st.image("./images/valuelens-logo.png", use_container_width=True)
+    st.image("src/images/valuelens-logo.png", use_container_width=True)
     st.caption("An AI-powered tool to explore and analyze text through the lens of human values.") 
     tabs = option_menu(
         None, 
@@ -745,20 +746,10 @@ elif tabs == "Value Theories":
 
     # Select a value theory
     theory_names = list(st.session_state.value_theories.keys())
-    
-    # Prepare theory options with metadata display
-    theory_display_names = {}
-    for theory_name, theory_data in st.session_state.value_theories.items():
-        display_name = theory_name
-        if "metadata" in theory_data and "theory" in theory_data["metadata"]:
-            display_name = "📚 " + theory_data["metadata"]["theory"]
-            theory_display_names[theory_name] = display_name
-    
     selected_theory = st.selectbox(
         "Select a Value Theory model to view its details.",
         options=theory_names,
-        index=1 if st.session_state.value_theories else None,
-        format_func=lambda x: theory_display_names.get(x, x)
+        index=1 if st.session_state.value_theories else None
     )
     
     # Display the selected theory
@@ -767,13 +758,7 @@ elif tabs == "Value Theories":
         
         # Mostrar el DataFrame como una tabla
         theory_content = st.session_state.value_theories[selected_theory]
-        
-        # Obtener el nombre de la teoría desde metadata
-        theory_display_name = selected_theory
-        if "metadata" in theory_content and "theory" in theory_content["metadata"]:
-            theory_display_name = theory_content["metadata"]["theory"]
-        
-        st.subheader(f"Metadata for `{theory_display_name}`", divider="gray")
+        st.subheader(f"Metadata for `{selected_theory}`", divider="gray")
         st.dataframe(pd.DataFrame(theory_content["metadata"].items(), columns=["Parameter", "Description"]))
         st.subheader("Values", divider="gray")
         st.session_state.current_theory = st.session_state.value_theories[selected_theory]
@@ -900,7 +885,7 @@ elif tabs == "Paper":
     
     # Read and display the valuelens.md file
     try:
-        with open("valuelens.md", "r", encoding="utf-8") as f:
+        with open("src/valuelens.md", "r", encoding="utf-8") as f:
             paper_content = f.read()
         
         # Display the markdown content
@@ -1074,6 +1059,6 @@ elif tabs == "History":
 
 # Footer
 st.sidebar.markdown("---")
-st.sidebar.image("./images/urjc-logo.png", use_container_width=True, caption="Madrid, Spain")
-st.sidebar.image("./images/qr-code-github.png", use_container_width=True)
+st.sidebar.image("src/images/urjc-logo.png", use_container_width=True, caption="Madrid, Spain")
+st.sidebar.image("src/images/qr-code-github.png", use_container_width=True)
 #st.sidebar.caption("© 2025 Value Lens Analysis Demo App")
