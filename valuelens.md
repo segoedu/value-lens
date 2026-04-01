@@ -6,7 +6,7 @@
 *2 Model review and documentation.*  
 *3 General review.*
 
-[📑 Paper](https://ebooks.iospress.nl/doi/10.3233/FAIA251448)
+[📑 Paper](https://ebooks.iospress.nl/doi/10.3233/FAIA251448)  
 [💾 Repository](https://github.com/segoedu/value-lens)  
 [▶️ Video](https://www.youtube.com/watch?v=TevkbV_W9Ls) 
 
